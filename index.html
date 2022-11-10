@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			#form{
+				/*display: flex;
+				justify-content: center;*/
+				width: auto;
+				margin: 0 auto;
+				font-size: 100px;
+			}
+			#submit{
+				font-size: 80px;
+			}
+			.form{
+				width: 70%;
+				font-size: 100px;
+				/*height: 2em;*/
+			}
+		</style>
+	</head>
+	<body>
+		<form id="form" action="form.php" method="get" >
+			<div>
+				<label>
+					ID:
+				</label>
+				<input class="form" type="text" name="id"/>
+			</div>
+			<div>
+				<label>
+					PW:
+				</label>
+				<input class="form" type="password" name="passwd" />
+			</div>
+			<div class="button">
+				<button id="submit" type="submit">
+					login
+				</button>
+			</div>
+		</form>
+	</body>
+</html>
